@@ -12,7 +12,7 @@ Se le facilita fichero `compose.yaml`.
 
 ```sh
 $ curl http://localhost
-{"message":"FastAPI funcionando en Docker"}
+{"message":"FastAPI Antonio Palacios Hernandez version 2.0" }
 ```
 
 ```sh
