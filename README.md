@@ -6,7 +6,7 @@ Se le facilita fichero `Dockerfile`.
 
 ## Desplegar aplicación y servicios necesarios
 
-Se le facilita fichero `compose.yaml`.
+Se le facilita fichero `docker-compose.yaml`.
 
 ## Probar en local
 
