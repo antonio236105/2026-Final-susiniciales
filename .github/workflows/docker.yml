@@ -21,15 +21,15 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v3 
         with:
-          username: ${{ secrets.DH_USER_REP2 }}
-          password: ${{ secrets.DH_TOKEN_REP2 }}
+          username: ${{ secrets.DH_USER_FIN}}
+          password: ${{ secrets.DH_TOKEN_FIN }}
       # 3   
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: 
           push: true 
-          tags: ${{ secrets.DH_USER_REP2 }}/examen_antonio_palacios
+          tags: ${{ secrets.DH_USER_FIN }}/examen_antonio_palacios
           
   aws:
     name: Deploy image to aws
