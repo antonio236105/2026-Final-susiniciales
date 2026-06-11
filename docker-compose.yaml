@@ -14,7 +14,7 @@ services:
       - mariadb_data:/var/lib/mysql
 
   web:
-    image: antonio2306/examen_Antonio_Palacios
+    image: antonio2306/examen_antonio_palacios
     container_name: web
     restart: always
     ports:
