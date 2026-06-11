@@ -14,7 +14,7 @@ services:
       - mariadb_data:/var/lib/mysql
 
   web:
-    image: susuario/test
+    image: antonio2306/examen
     container_name: web
     restart: always
     ports:
