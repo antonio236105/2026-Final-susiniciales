@@ -1,5 +1,4 @@
 # 2026-Final-susiniciales
-# FastApi y postgres
 
 ## Construir imagen de la aplicación
 
